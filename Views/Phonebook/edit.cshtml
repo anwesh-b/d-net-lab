@@ -1,0 +1,21 @@
+@model MvcMoviw.Models.Phonebook
+
+<form method="post">
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Edit Todo</h2>
+			<hr />
+		</div>
+		<div class="mb-3">
+			<label asp-for="name"></label>
+			<input asp-for="name" class="form-control" />
+			<span asp-validation-for="name" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="number"></label>
+			<input asp-for="number" class="form-control" />
+			<span asp-validation-for="number" class="text-danger"></span>
+		</div>
+		<button type="submit" class="btn btn-primary" style="width:150px">Update</button>
+	</div>
+</form>

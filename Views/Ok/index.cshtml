@@ -1,0 +1,6 @@
+@{
+    var names = new string[] { "John", "Mary", "Peter" };
+}
+<h1>@for(var i=0; i<@names.Length; i++){
+    <p>MyVariable is @names[@i]</p>
+}</h1>

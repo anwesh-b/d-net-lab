@@ -1,0 +1,37 @@
+@model List<MvcMoviw.Models.Phonebook>
+<div style="margin:30px;margin-left:0px">
+    <button>
+        <a class="nav-link text-dark" asp-area="" asp-controller="Phonebook" asp-action="Create">
+            Add Phonebook
+        </a>
+    </button>
+</div>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Number</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.name</td>
+                <td>@item.number</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id }, new { @class = "btn btn-primary" })
+                </td>
+                <td>
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id }, new { @class = "btn btn-danger" })
+                </td>   
+            </tr>
+        }
+    </tbody>
+</table>
+

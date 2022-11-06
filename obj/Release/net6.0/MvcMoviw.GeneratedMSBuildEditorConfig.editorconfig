@@ -1,0 +1,80 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MvcMoviw
+build_property.RootNamespace = MvcMoviw
+build_property.ProjectDir = /home/anwesh/Documents/six/dnet/MvcMoviw/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/anwesh/Documents/six/dnet/MvcMoviw
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/anwesh/Documents/six/dnet/MvcMoviw/Views/Form/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybS9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/anwesh/Documents/six/dnet/MvcMoviw/Views/Home/Hunxa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9IdW54YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/anwesh/Documents/six/dnet/MvcMoviw/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/anwesh/Documents/six/dnet/MvcMoviw/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/anwesh/Documents/six/dnet/MvcMoviw/Views/Ok/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT2svaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/anwesh/Documents/six/dnet/MvcMoviw/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/anwesh/Documents/six/dnet/MvcMoviw/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/anwesh/Documents/six/dnet/MvcMoviw/Views/Todo/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVG9kby9jcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/anwesh/Documents/six/dnet/MvcMoviw/Views/Todo/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVG9kby9lZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/anwesh/Documents/six/dnet/MvcMoviw/Views/Todo/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVG9kby9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/anwesh/Documents/six/dnet/MvcMoviw/Views/Todoado/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVG9kb2Fkby9jcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/anwesh/Documents/six/dnet/MvcMoviw/Views/Todoado/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVG9kb2Fkby9lZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/anwesh/Documents/six/dnet/MvcMoviw/Views/Todoado/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVG9kb2Fkby9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/anwesh/Documents/six/dnet/MvcMoviw/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/anwesh/Documents/six/dnet/MvcMoviw/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/anwesh/Documents/six/dnet/MvcMoviw/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ljrlljlj3m

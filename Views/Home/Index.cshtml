@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@if(ViewData["UserName"] != null){
+    <p>Welcome to 38th portal @ViewData["UserName"]</p>
+}
+
+@if(ViewData["message"] != null){
+    <p>My message to people of 38th portal: @ViewData["message"]</p>
+}
+
+
+@if(ViewData["name"] != null){
+    <p>Owner of 38th portal @ViewData["name"]</p>
+}

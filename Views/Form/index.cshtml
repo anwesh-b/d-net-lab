@@ -1,0 +1,18 @@
+@model MvcMoviw.Models.Form
+
+@using(var form = Html.BeginForm()) {
+<div>
+@Html.LabelFor(m => m.UserName)
+@Html.TextBoxFor(m => m.UserName)
+@Html.ValidationMessageFor(m => m.UserName)
+</div>
+<div>
+@Html.LabelFor(m => m.Password)
+@Html.TextBoxFor(m => m.Password)
+@Html.ValidationMessageFor(m => m.Password)
+</div>
+@if(@ViewData["Message"] != null){
+    <p>@ViewData["Message"]</p>
+}
+<input type="submit" value="Submit" />
+}

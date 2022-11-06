@@ -1,0 +1,37 @@
+@model List<MvcMoviw.Models.Todo>
+<div style="margin:30px;margin-left:0px">
+    <button>
+        <a class="nav-link text-dark" asp-area="" asp-controller="Todo" asp-action="Create">
+            Add Todo
+        </a>
+    </button>
+</div>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.title</td>
+                <td>@item.description</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id }, new { @class = "btn btn-primary" })
+                </td>
+                <td>
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id }, new { @class = "btn btn-danger" })
+                </td>   
+            </tr>
+        }
+    </tbody>
+</table>
+

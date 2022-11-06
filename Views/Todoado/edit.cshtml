@@ -1,0 +1,22 @@
+@model MvcMoviw.Models.Todo
+
+
+<form method="post">
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Create Todo</h2>
+			<hr />
+		</div>
+		<div class="mb-3">
+			<label asp-for="title"></label>
+			<input asp-for="title" class="form-control" />
+			<span asp-validation-for="title" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="description"></label>
+			<input asp-for="description" class="form-control" />
+			<span asp-validation-for="description" class="text-danger"></span>
+		</div>
+		<button type="submit" class="btn btn-primary" style="width:150px">Update</button>
+	</div>
+</form>
